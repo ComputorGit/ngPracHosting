@@ -7,3 +7,5 @@ app.get('/*', function(req,res) {
   res.sendFile(path.join(__dirname+
     '/dist/angular-on-heroku/index.html'));});
 app.listen(process.env.PORT || 8080);
+
+console.log("Running")
